@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Tabs and Tab Componnet should render the component to match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tabs
+    activeIndex={0}
+    onTabChange={[MockFunction]}
+  >
+    <Tab>
+      1
+    </Tab>
+    <Tab>
+      2
+    </Tab>
+  </Tabs>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link active"
+            href="#"
+            onClick={[Function]}
+            role="button"
+          >
+            <Tab>
+              1
+            </Tab>
+          </a>
+        </li>,
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="#"
+            onClick={[Function]}
+            role="button"
+          >
+            <Tab>
+              2
+            </Tab>
+          </a>
+        </li>,
+      ],
+      "className": "nav nav-tabs nav-fill my-4",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": ".0",
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            className="nav-link active"
+            href="#"
+            onClick={[Function]}
+            role="button"
+          >
+            <Tab>
+              1
+            </Tab>
+          </a>,
+          "className": "nav-item",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Tab>
+              1
+            </Tab>,
+            "className": "nav-link active",
+            "href": "#",
+            "onClick": [Function],
+            "role": "button",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "1",
+            },
+            "ref": null,
+            "rendered": "1",
+            "type": [Function],
+          },
+          "type": "a",
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": ".1",
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            className="nav-link"
+            href="#"
+            onClick={[Function]}
+            role="button"
+          >
+            <Tab>
+              2
+            </Tab>
+          </a>,
+          "className": "nav-item",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Tab>
+              2
+            </Tab>,
+            "className": "nav-link",
+            "href": "#",
+            "onClick": [Function],
+            "role": "button",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "2",
+            },
+            "ref": null,
+            "rendered": "2",
+            "type": [Function],
+          },
+          "type": "a",
+        },
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-link active"
+              href="#"
+              onClick={[Function]}
+              role="button"
+            >
+              <Tab>
+                1
+              </Tab>
+            </a>
+          </li>,
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-link"
+              href="#"
+              onClick={[Function]}
+              role="button"
+            >
+              <Tab>
+                2
+              </Tab>
+            </a>
+          </li>,
+        ],
+        "className": "nav nav-tabs nav-fill my-4",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": ".0",
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className="nav-link active"
+              href="#"
+              onClick={[Function]}
+              role="button"
+            >
+              <Tab>
+                1
+              </Tab>
+            </a>,
+            "className": "nav-item",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Tab>
+                1
+              </Tab>,
+              "className": "nav-link active",
+              "href": "#",
+              "onClick": [Function],
+              "role": "button",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "1",
+              },
+              "ref": null,
+              "rendered": "1",
+              "type": [Function],
+            },
+            "type": "a",
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": ".1",
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className="nav-link"
+              href="#"
+              onClick={[Function]}
+              role="button"
+            >
+              <Tab>
+                2
+              </Tab>
+            </a>,
+            "className": "nav-item",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Tab>
+                2
+              </Tab>,
+              "className": "nav-link",
+              "href": "#",
+              "onClick": [Function],
+              "role": "button",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "2",
+              },
+              "ref": null,
+              "rendered": "2",
+              "type": [Function],
+            },
+            "type": "a",
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
